@@ -39,13 +39,17 @@ li {
 
 /*top-container*/
 .top-container {
-    background-color: #effcef;
+    background-color: #fffafd;
 }
 
 .main-description {
     width: 400px;
     margin: 0 auto;
     text-align: center;
+    color: #87c593;
+    font-size: 1.5rem;
+    font-family: 'Niconne', cursive;
+    letter-spacing: 6px;
 }
 
 span {
