@@ -31,15 +31,16 @@ ul {
 
 li {
     display: inline-block;
-    color: #cba89f;
-    font-size: 1.3rem;
-    font-weight: bolder;
+    color: #d8ab86;
+    font-size: 1.5rem;
     list-style: none;
     padding: 0 10px;
 }
 
 li:hover {
-    color: #a96f60;
+    color: #7f6148;
+    border-bottom-style: solid;
+    border-color: #7f6148;
 }
 
 .fox {
