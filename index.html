@@ -4,80 +4,93 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
+    <!--CSS Stylesheets-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    <!--Favicon-->
     <link href="favicon.ico" rel="icon">
+
+    <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Forum|Life+Savers&display=swap" rel="stylesheet">
+
+    <!--    Bootstrap Scripts-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-
-    <header>
-        <div class="top-wrapper">
-            <nav>
-                <ul>
-                    <li><a class="nav-links" href="#profile">About me</a></li>
-                    <li><a class="nav-links" href="#skills">Work</a></li>
-                 <li><a class="nav-links" href="#contact-me">Contacts</a></li>
-                </ul>
-            </nav>
-            <div class="fox">
-                <img class="fox-img" src="images/fox.png" alt=""/>
-            </div>
+<header>
+    <div class="navbar-wrapper">
+        <nav class="navbar">
+            <ul>
+                <li class="nav-item"><a class="nav-links" href="#profile">About me</a></li>
+                <li class="nav-item"><a class="nav-links" href="#skills">My Skills</a></li>
+                <li class="nav-item"><a class="nav-links" href="#contact-me">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="logo-image">
+            <img class="fox-img" src="images/fox.png" alt="logo image fox"/>
         </div>
-    </header>
+    </div>
+</header>
 
-    <div class="top-container">
-        <div class="main-description">
-            <h1>I'm Iryna,</h1>
-            <h1>a <span>Web</span> Developer.</h1>
-        </div>
-        <div class="fields">
-            <img class="fields-img" src="images/fields.png" alt=""/>
-        </div>
+<div class="top-container">
+    <div class="top-title">
+        <h1>I'm Iryna,</h1>
+        <h1>a <span>Web</span> Developer</h1>
+    </div>
+    <div class="top-image">
+        <img class="fields-img" src="images/fields.png" alt="top image fields"/>
+    </div>
+</div>
 
-
+<div class="container middle-container">
+    <div id="profile" class="profile">
+        <img class="profile-img" src="images/girl.png" alt="profile image girl">
+        <h2>Hello</h2>
+        <p class="profile-info">Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
     </div>
 
-    <main>
-        <div id="profile" class="profile">
-            <img class="profile-img" src="images/girl.png" alt="">
-            <h2>Hello.</h2>
-            <p class="profile-info">Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+    <hr>
+
+    <div id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skill-row">
+            <img class="code-img" src="images/code.png" alt="">
+            <h3>Lorem & Ipsum</h3>
+            <p class="skill-info">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
         </div>
 
-        <hr>
-
-        <div id="skills" class="skills">
-            <h2>My Skills.</h2>
-            <div class="skill-row">
-                <img class="code-img" src="images/code.png" alt="">
-                <h3>Lorem & Ipsum</h3>
-                <p class="skill-descr">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
-                </div>
-
-            <div class="skill-row">
-                <img class="list-img" src="images/document.png" alt="">
-                <h3>Lorem Ipsum Dolor</h3>
-                <p class="skill-descr">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
-            </div>
+        <div class="skill-row">
+            <img class="list-img" src="images/document.png" alt="">
+            <h3>Lorem Ipsum Dolor</h3>
+            <p class="skill-info">Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
         </div>
+    </div>
 
-        <hr>
+    <hr>
 
-        <div id="contact-me" class="contact-me">
-            <h2>Get In Touch.</h2>
-            <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-            <p class="contact-message">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-            <a class="btn" href="mailto:iryna.predborska@gmail.com"><div class="button">CONTACT ME</div></a>
-        </div>
-    </main>
+    <div id="contact-me" class="contact-me">
+        <h2>Get In Touch</h2>
+        <p class="contact-message">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+        <a class="btn" href="mailto:iryna.predborska@gmail.com">
+            <div class="button">Visit my Github</div>
+        </a>
+    </div>
+</div>
 
-    <footer>
-        <a class="footer-link" href="">Github</a>
-        <a class="footer-link" href="">LinkedIn</a>
-        <div>Icons made by <a class="footer-link" href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> and <a class="footer-link" href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a class="footer-link" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-        <div class="copyright">© 2020 Iryna Predborska. All rights reserved.</div>
-    </footer>
+<footer>
+    <a class="footer-link" href="">Github</a>
+    <div class="icons-links">
+        Icons made by <a class="footer-link" href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a>
+        and <a class="footer-link" href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from
+        <a class="footer-link" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+    </div>
+    <p class="copyright">© 2020 Made by Iryna Predborska</p>
+</footer>
 
 
 </body>
