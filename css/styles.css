@@ -4,7 +4,7 @@
 }
 body {
     font-family: 'Forum', cursive;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     color: #56473a;
 }
 a:hover {
@@ -14,10 +14,17 @@ h2 {
     font-size: 3rem;
     color: #feb64d;
     text-align: center;
+    margin-top: 5%;
 }
 h3 {
     color: #fecb80;
-    margin-left: 32%;
+    font-size: 2rem;
+}
+hr {
+    width: 50%;
+    margin: 100px auto;
+    border-style: none;
+    border-bottom: 3px solid #faf5f1;
 }
 
 /*Header Section*/
@@ -88,17 +95,6 @@ header {
     font-weight: bold;
 }
 
-/*Middle Section*/
-.middle-container {
-    line-height: 35px;
-}
-hr {
-    width: 40%;
-    margin: 60px auto;
-    border-style: none;
-    border-bottom: 3px solid #faf5f1;
-}
-
 /*Profile*/
 .profile {
     text-align: center;
@@ -110,25 +106,47 @@ hr {
 
 /*Skills*/
 .skills {
-    padding-top: 20px;
-}
-.skill-row {
-    padding: 5% 15%;
+    padding: 0 2%;
 }
 .code-img,
 .list-img {
-    width: 30%;
-    float: left;
+    width: 300px;
+}
+.skill-row {
+    margin-bottom: 3%;
 }
 .skill-info {
-    margin-left: 32%;
+    padding: 5% 0 0 1%;
     text-align: justify;
 }
 
+@media (max-width: 1200px) {
+    .skill-info {
+        padding-left: 5%;
+    }
+}
+@media (max-width: 768px) {
+    .skill-row {
+        margin-bottom: 10%;
+    }
+    .skill-image, .skill-heading {
+        text-align: center;
+    }
+    .skill-info,
+    .profile {
+        padding: 0 10%;
+    }
+}
+
 /*Contacts Section*/
-.contacts-info {
+.contacts {
     text-align: center;
     padding: 0 20%;
+}
+@media (max-width: 768px) {
+    .contacts {
+        padding: 0 10%;
+    }
 }
 .git-button {
     width: 200px;
