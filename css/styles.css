@@ -20,11 +20,11 @@ h3 {
     color: #fecb80;
     font-size: 2rem;
 }
-hr {
+.hr-line {
     width: 50%;
     margin: 100px auto;
     border-style: none;
-    border-bottom: 3px solid #faf5f1;
+    border-bottom: 5px solid #faf5f1;
 }
 
 /*Header Section*/
@@ -69,6 +69,7 @@ header {
 .top-container {
     background-color: #f6ffea;
     padding: 90px 0;
+    margin-bottom: 80px;
 }
 .top-title {
     width: 450px;
@@ -98,10 +99,7 @@ header {
 /*Profile*/
 .profile {
     text-align: center;
-    padding: 0 20%;
-}
-.profile-img {
-    padding-top: 40px;
+    padding: 0 5%;
 }
 
 /*Skills*/
@@ -132,8 +130,7 @@ header {
     .skill-image, .skill-heading {
         text-align: center;
     }
-    .skill-info,
-    .profile {
+    .skill-info {
         padding: 0 10%;
     }
 }
@@ -141,12 +138,7 @@ header {
 /*Contacts Section*/
 .contacts {
     text-align: center;
-    padding: 0 20%;
-}
-@media (max-width: 768px) {
-    .contacts {
-        padding: 0 10%;
-    }
+    padding: 0 5%;
 }
 .git-button {
     width: 200px;
