@@ -133,16 +133,29 @@ header {
     }
 }
 
-/*Work Section*/
-#work {
+/*Portfolio Section*/
+.work-example {
+    max-width: 700px;
+    margin: 0 auto 100px;
+}
+.portfolio-heading {
+    margin-bottom: 20px;
     text-align: center;
 }
 .work-img {
     width: 700px;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 4px 0 9px 4px rgba(201,201,201,1);
+}
+.portfolio-link {
+    color: #d4a279;
+}
+.portfolio-link:hover {
+    color: #af460f;
 }
 
-
-/*Contacts Section*/
+    /*Contacts Section*/
 .contacts {
     padding: 0 5%;
     text-align: center;
