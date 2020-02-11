@@ -23,7 +23,7 @@ h3 {
 }
 .hr-line {
     width: 50%;
-    margin: 100px auto;
+    margin: 70px auto 100px;
     border-style: none;
     border-bottom: 5px solid #faf5f1;
 }
@@ -129,13 +129,16 @@ header {
         text-align: center;
     }
     .skill-info {
-        padding: 0 10%;
+        padding: 0 7%;
     }
 }
 
+
 /*Portfolio Section*/
+.portfolio-container {
+    margin: 0 auto;
+ }
 .work-example {
-    max-width: 700px;
     margin: 0 auto 100px;
 }
 .portfolio-heading {
@@ -143,9 +146,7 @@ header {
     text-align: center;
 }
 .work-img {
-    width: 700px;
     margin-bottom: 30px;
-    text-align: center;
     box-shadow: 4px 0 9px 4px rgba(201,201,201,1);
 }
 .portfolio-link {
@@ -162,7 +163,7 @@ header {
 }
 .git-button {
     width: 210px;
-    margin: 0 auto 80px;
+    margin: 0 auto 100px;
     padding: 15px;
     text-align: center;
     font-size: 1.3rem;
