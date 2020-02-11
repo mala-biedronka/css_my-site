@@ -133,6 +133,15 @@ header {
     }
 }
 
+/*Work Section*/
+#work {
+    text-align: center;
+}
+.work-img {
+    width: 700px;
+}
+
+
 /*Contacts Section*/
 .contacts {
     padding: 0 5%;
