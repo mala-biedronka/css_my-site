@@ -10,7 +10,8 @@ body {
 @media screen
 and (device-width: 360px)
 and (device-height: 640px)
-and (-webkit-device-pixel-ratio: 2){
+and (-webkit-device-pixel-ratio: 4)
+and (orientation: portrait){
     body {
         font-size: 4.6rem;
     }
