@@ -7,7 +7,7 @@ body {
     font-size: 1.6rem;
     color: #56473a;
 }
-@media (max-width: 1400px){
+@media (max-width: 320px){
     body {
         font-size: 4.6rem;
     }
