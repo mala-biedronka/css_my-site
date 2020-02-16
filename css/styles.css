@@ -17,10 +17,6 @@ h2 {
     font-size: 3rem;
     color: #feb64d;
 }
-h3 {
-    font-size: 2rem;
-    color: #fecb80;
-}
 .hr-line {
     width: 50%;
     margin: 70px auto 100px;
@@ -111,8 +107,11 @@ header {
     margin-bottom: 3%;
 }
 .skill-info {
-    padding: 5% 0 0 1%;
+    padding: 2% 0 0 1%;
     text-align: justify;
+}
+.skills-list {
+    list-style-position: inside;
 }
 
 @media (max-width: 1200px) {
@@ -154,6 +153,9 @@ header {
 }
 .portfolio-link:hover {
     color: #af460f;
+}
+.portfolio-text {
+    margin-bottom: 0;
 }
 
     /*Contacts Section*/
