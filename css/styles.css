@@ -1,18 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: 'Forum', cursive;
     font-size: 1.6rem;
     color: #56473a;
 }
-@media only screen and (max-device-width: 480px){
-    body {
-        font-size: 4.6rem;
-    }
-}
-/*reset Bootstrap`s style for a elements*/
 a:hover {
     text-decoration: none;
 }
@@ -119,25 +114,6 @@ header {
     list-style-position: inside;
 }
 
-@media (max-width: 1200px) {
-    .skill-info {
-        padding-left: 2%;
-    }
-}
-@media (max-width: 768px) {
-    .skill-row {
-        margin-bottom: 10%;
-    }
-    .skill-image,
-    .skill-heading {
-        text-align: center;
-    }
-    .skill-info {
-        padding: 4% 7% 0;
-    }
-}
-
-
 /*Portfolio Section*/
 .portfolio-container {
     margin: 0 auto;
@@ -163,7 +139,7 @@ header {
     margin-bottom: 0;
 }
 
-    /*Contacts Section*/
+/*Contacts Section*/
 .contacts {
     padding: 0 5%;
     text-align: center;
@@ -203,3 +179,23 @@ footer {
 .footer-link:hover {
     color: #af460f;
 }
+
+/*Responsive Skills Section*/
+@media screen and (max-width: 1200px) {
+    .skill-info {
+        padding-left: 2%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .skill-row {
+        margin-bottom: 10%;
+    }
+    .skill-image,
+    .skill-heading {
+        text-align: center;
+    }
+    .skill-info {
+        padding: 4% 7% 0;
+    }
+}
+
