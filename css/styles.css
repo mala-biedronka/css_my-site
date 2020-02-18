@@ -180,6 +180,8 @@ footer {
     color: #af460f;
 }
 
+/*Responsive CSS*/
+
 /*Responsive Skills Section*/
 @media screen and (max-width: 1200px) {
     .skill-info {
