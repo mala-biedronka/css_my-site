@@ -188,7 +188,7 @@ footer {
         padding-left: 2%;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 375px) {
     .skill-row {
         margin-bottom: 10%;
     }
