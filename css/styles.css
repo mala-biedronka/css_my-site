@@ -196,6 +196,7 @@ footer {
 @media screen and (max-width: 375px) {
     .skill-row {
         margin-bottom: 10%;
+        background-color: #86a553;
     }
     .skill-image,
     .skill-heading {
