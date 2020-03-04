@@ -7,6 +7,7 @@ body {
     font-family: 'Forum', cursive;
     font-size: 1.6rem;
     color: #56473a;
+    background-color: #af460f;
 }
 a:hover {
     text-decoration: none;
@@ -194,12 +195,8 @@ footer {
     }
 }
 @media screen and (max-width: 375px) {
-    body {
-        background-color: #86a553;
-    }
     .skill-row {
         margin-bottom: 10%;
-        background-color: #86a553;
     }
     .skill-image,
     .skill-heading {
