@@ -186,6 +186,7 @@ footer {
 @media screen and (max-width: 375px) {
     .title-heading {
     font-size: 1rem;
+        color: #86a553;
     }
 }
 
