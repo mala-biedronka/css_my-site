@@ -71,11 +71,12 @@ h2 {
     text-decoration: underline;
 }
 .top-image {
-    max-width: 400px;
-    margin: 0 auto;
+    /*max-width: 400px;*/
+    /*margin: 0 auto;*/
+    text-align: center;
 }
 .fields-img {
-    /*max-width: 100%;*/
+    max-width: 100%;
 }
 
 /*Profile Section*/
