@@ -184,9 +184,9 @@ footer {
 
 /*Responsive Top Section*/
 @media screen and (max-width: 375px) {
-    .title-heading {
+    .top-title {
     font-size: 1rem;
-        color: #86a553;
+    color: #86a553;
     }
 }
 
