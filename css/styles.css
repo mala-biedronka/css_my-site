@@ -183,12 +183,9 @@ footer {
 /*Responsive CSS*/
 
 /*Responsive Top Section*/
-@media screen and (max-width: 375px) {
-    .top-title {
-    font-size: 1rem;
-    color: #86a553;
-    }
-}
+/*@media screen and (max-width: 375px) {*/
+
+/*}*/
 
 /*Responsive Skills Section*/
 @media screen and (max-width: 1200px) {
@@ -206,6 +203,10 @@ footer {
     }
     .skill-info {
         padding: 4% 7% 0;
+    }
+    .top-title {
+        font-size: 1rem;
+        color: #86a553;
     }
 }
 
